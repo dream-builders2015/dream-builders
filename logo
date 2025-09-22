@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <!-- ✅ Favicon (Tab Logo) -->
+  <link rel="icon" type="image/png" href="https://scontent.fmaa2-2.fna.fbcdn.net/v/t39.30808-6/329975154_1132026834156541_3451828650518158385_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E7bo6ak_0e4Q7kNvwFMZzJo&_nc_oc=AdmWgVtwzmEMlN1mVCcxLCcbWhBLHt88JpAGiAVIqrzT1WJaECsxdby7ls9Ya5-j-1A&_nc_zt=23&_nc_ht=scontent.fmaa2-2.fna&_nc_gid=ie5_vJ0flbuZAqF7bwhSoA&oh=00_AfZ2BsbEuCejRpzNx7b0LUY12vXvRF06PYcpxJb3mr9ASA&oe=68D5A74A">
+
+  <style>
+    /* ✅ Navbar Style */
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background: #f8f9fa;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .navbar img {
+      height: 60px;  /* Logo size */
+      margin-right: 15px;
+    }
+    .navbar h1 {
+      font-size: 24px;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!-- ✅ Navbar with Logo -->
+  <div class="navbar">
+    <img src="https://scontent.fmaa2-2.fna.fbcdn.net/v/t39.30808-6/329975154_1132026834156541_3451828650518158385_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E7bo6ak_0e4Q7kNvwFMZzJo&_nc_oc=AdmWgVtwzmEMlN1mVCcxLCcbWhBLHt88JpAGiAVIqrzT1WJaECsxdby7ls9Ya5-j-1A&_nc_zt=23&_nc_ht=scontent.fmaa2-2.fna&_nc_gid=ie5_vJ0flbuZAqF7bwhSoA&oh=00_AfZ2BsbEuCejRpzNx7b0LUY12vXvRF06PYcpxJb3mr9ASA&oe=68D5A74A" alt="Website Logo">
+    <h1>My Website</h1>
+  </div>
+
+  <p>Welcome to my website! 🎉</p>
+</body>
+</html>
